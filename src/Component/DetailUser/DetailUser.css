@@ -1,0 +1,213 @@
+
+.user-detail{
+    background-image: url('./ImageDetailUser//movie-details-bg.jpg');
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.bhd-page-user-detail {
+    padding-top: 40px;
+    margin-left: -15px;
+    display: flex;
+    flex-direction: row;
+    background-image: url('./ImageDetailUser//movie-details-bg.jpg');
+}
+
+.bhd-page-user-detail .info-user-detail {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 50%;
+}
+
+
+
+.bhd-page-user-detail .info-user-detail .member--edit {
+    padding: 13px 22px 50px;
+    margin-bottom: 42px;
+    font-family: "Roboto", sans-serif;
+    background: #1c262f;
+    border-radius: 2px;
+}
+
+.bhd-page-user-detail .info-user-detail .member--info {
+    padding-left: 175px;
+    position: relative;
+    min-height: 220px;
+    margin-bottom: 23px;
+    border-bottom: 1px solid #23303b;
+}
+
+.bhd-page-user-detail .member--info .avatar {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bhd-page-user-detail .member--info .avatar img {
+    border-radius: 8px;
+    width: 150px;
+    height: 200px;
+}
+
+.bhd-page-user-detail p {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.bhd-page-user-detail .info-user-detail .member--message p {
+    margin-bottom: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 0 10px;
+}
+
+.bhd-page-user-detail .info-user-detail .title {
+    margin: 0 0 8px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #42b033;
+    font-weight: 500;
+}
+
+.bhd-page-user-detail .info-user-detail .meta {
+    font-size: 0;
+}
+
+.bhd-page-user-detail .info-user-detail .meta li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 15px;
+    color: #7c7c7b;
+    line-height: 23px;
+}
+
+.bhd-page-user-detail .info-user-detail .meta li:last-child {
+    margin-right: 0;
+    margin-top: 5px;
+}
+
+.bhd-page-user-detail .meta li strong {
+    font-weight: 500;
+}
+
+.bhd-page-user-detail .meta .point {
+    color: #facf04;
+    font-weight: 500;
+}
+
+.bhd-page-user-detail .info-user-detail .member--message strong {
+    font-weight: 500;
+    color: #40a933;
+}
+
+.bhd-page-user-detail .cardinfo-user-detail {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.bhd-page-user-detail .member--edit .form--inside {
+    line-height: 35px;
+    color: #bfc9d2;
+    font-size: 15px;
+}
+
+.bhd-page-user-detail .form--inside .controls {
+    display: block;
+    position: relative;
+    padding-left: 150px;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    line-height: 35px;
+}
+
+.bhd-page-user-detail .form--inside .controls .txt--label {
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bhd-page-user-detail .form--inside .controls .inp--text {
+    padding-left: 15px;
+    background: #37424b;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+
+/* --------------ardinfo-user-detail----------------------- */
+.bhd-page-user-detail .cardinfo-user-detail {
+    width: 50%;
+}
+
+.bhd-page-user-detail .member-card {
+    background: #121e26;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.bhd-page-user-detail .member-card span {
+    margin-left: 10px;
+}
+
+.bhd-page-user-detail .member-card h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+    padding: 0;
+    color: #fff;
+}
+
+.bhd-page-user-detail .member-card>ul {
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 25px 15px;
+    background-color: #39454f;
+    border-radius: 5px;
+    border: 1px solid #40a933;
+}
+
+.bhd-page-user-detail .member-card>ul>li {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(173, 168, 168);
+    line-height: 25px;
+}
+
+.bhd-page-user-detail .member-card>ul>li>span {
+    letter-spacing: 2px;
+}
+
+
+.bhd-page-user-detail .member-card .lv, .no {
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-left: 5px;
+    background-color: rgb(66, 3, 3);
+}
+
+.sign-out-cover {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.sign-out {
+    background-color: rgb(139, 9, 9);
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0px 2px 0px 2px rgb(30, 30, 30);
+}
